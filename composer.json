@@ -1,0 +1,21 @@
+{
+  "name": "ebrook/minimal",
+  "description": "A minimal skeleton Magento 2 module",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.3.0||~7.4.0"
+  },
+  "authors": [
+    {
+      "name":"cherry",
+      "email": "cherry.yang@ebrook.com.tw"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Ebrook\\Minimal\\": ""
+    }
+  }
+
+}
